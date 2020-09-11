@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",        // path to output directory
+    "strictNullChecks": true,   // enable strict null checks as a best practice
+    "target": "ESNext",
+    "allowJs": true,            // allow a partial TypeScript and JavaScript codebase
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "lib": ["esnext.asynciterable", "ES2015"]
+  },
+  "include": [
+    "./src/**/*",
+    "./__tests__/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}

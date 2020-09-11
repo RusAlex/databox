@@ -1,0 +1,51 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:latest",
+    "tslint-eslint-rules",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {
+    "object-literal-sort-keys": false
+  },
+  "rules": {
+    "interface-name": false,
+    "object-literal-sort-keys": false,
+    "object-literal-key-quotes": false,
+    "class-name": true,
+    "no-submodule-imports": false,
+    "no-trailing-whitespace": true,
+    "no-empty-interface": false,
+    "no-var-keyword": true,
+    "no-var-requires": true,
+    "ordered-imports": false,
+    "prefer-const": true,
+    "prefer-template": true,
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "no-parameter-reassignment": false,
+    "arrow-parens": false,
+    "prefer-for-of": true,
+    "no-conditional-assignment": true,
+    "no-console": [true, "log", "error"],
+    "no-duplicate-variable": true,
+    "variable-name": [true, "always", "ban-keywords"],
+    "no-duplicate-imports": true,
+    "no-implicit-dependencies": [true, "dev"],
+    "no-return-await": true,
+    "no-shadowed-variable": true,
+    "no-switch-case-fall-through": true,
+    "prefer-switch": true,
+    "no-unused-expression": true,
+    "no-var-keyword": true,
+    "prefer-object-spread": true,
+    "triple-equals": true,
+    "cyclomatic-complexity": [true, 15],
+    "trailing-comma": [
+      false
+    ],
+    "valid-jsdoc": [true],
+    "quotemark": [true, "single"],
+    "curly": [false]
+  },
+  "rulesDirectory": []
+}

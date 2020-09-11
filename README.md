@@ -39,7 +39,7 @@ DATABOX_TOKEN=somesecrettokenhere
 GITHUB_TOKEN=somesecrettokenhere
 ```
 
-Github token should have specific scope _public_repo_.
+Github token should MUST have the scope *public_repo*.
 It is on github.com website (Settings -> Developer Settings
 -> Personal access tokens)
 
@@ -58,7 +58,3 @@ It is on github.com website (Settings -> Developer Settings
 1. `npm run lint`
 2. `npm run test`
 3. `npm run ts-build`
-
-Most of the code has TypeScript declarations. Some tests could be
-written but presume application is very simple and at this point
-tests are not required.

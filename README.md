@@ -1,30 +1,3 @@
-# Task
-The purpose of the task is to build a Databox integration that
-lets you
-extract metrics from a variety of source types and send them
-to the Databox platform via Push API. Your quest:
-1. Get 5-10 metrics from two different APIs or other sources and
-push them into Databox
-2. At least one of those services has to use OAuth 2
-authorization
-3. Min 50% unit test code coverage
-4. Simple deployment (keep in mind that
-someone will have to run the
-code)
-5. Periodic sending trigger
-
-## Other info:
-1. Start with [1]http://developers.databox.com/
-2. Use the language of your choice
-
-## Suggested services to integrate:
-1. GitHub
-2. Google Analytics
-3. Facebook
-4. Instagram
-5. or any other by your choice
-
-
 # How to set up
 
 First of all two environement variables required. Easiest way to use
@@ -39,7 +12,7 @@ DATABOX_TOKEN=somesecrettokenhere
 GITHUB_TOKEN=somesecrettokenhere
 ```
 
-Github token should MUST have the scope *public_repo*.
+Github token MUST have the scope **public_repo**.
 It is on github.com website (Settings -> Developer Settings
 -> Personal access tokens)
 
